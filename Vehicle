@@ -1,0 +1,15 @@
+package lat1;
+
+/**
+ *
+ * @author nabila
+ */
+public abstract class Vehicle {
+ public void Fuction() {
+     System.out.println("Transportation tools");
+ }   
+ public void Fuel() {
+     System.out.println("Fuels");
+ }
+ public abstract void Walk();
+}
