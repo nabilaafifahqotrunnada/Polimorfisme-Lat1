@@ -1,0 +1,17 @@
+package lat1;
+
+/**
+ *
+ * @author nabila
+ */
+public class AeroPlan extends Vehicle {
+ public void Walk() {
+     System.out.println("Aeroplan is flying");
+ }   
+    public static void main(String[] args) {
+        AeroPlan garuda = new AeroPlan();
+        garuda.Fuction();
+        garuda.Fuel();
+        garuda.Walk();
+    }
+}
